@@ -1,0 +1,8 @@
+#l1{
+	list-style-type: upper-roman;
+	font-weight: bold;
+}
+li{
+	list-style-type: disc;
+	font-weight: normal;
+}

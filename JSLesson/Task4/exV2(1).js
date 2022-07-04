@@ -1,11 +1,10 @@
 "use strict";
-let min,max,imin,imax,i1,i2;
+let sum,i1,i2;
 function getRandomInt(max) {
   return Math.floor(Math.random() * max);
 }
-max = Number.MIN_SAFE_INTEGER;
-min = Number.MAX_SAFE_INTEGER;
-let arrTemp = [];
+let count = 0;
+sum = 0;
 let arr = [];
 let n = prompt("Enter length:");
 let c = Number(prompt("1 - By Keyboard 2 - Random numbers"));
@@ -27,13 +26,14 @@ for(let i = 0; i < n; i++){
 }
 
 for(let i = 0; i < arr.length-1; i++){
-  if(arr[i] < min){min = arr[i]; imin = i;}
-  if(arr[i] > max){max = arr[i]; imax = i;}
+  if(arr[i] == 0 && count == 0){i1 = i; count++;}
+  else if(arr[i] == 0){i2 = i;}
 }
-if(imin < imax){
-   arrTemp = arr.slice(imin,imax);
-} else if(imax < imin){
-   arrTemp = arr.slice(imax,imin);
+
+for(let i = i1; i < i2; i++){
+  sum += arr[i];
 }
-console.log(arrTemp);
+document.write("<p>"+sum+"</p>");
+console.log(i1);
+console.log(i2);
 console.log(arr);

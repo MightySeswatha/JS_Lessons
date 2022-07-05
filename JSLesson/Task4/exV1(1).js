@@ -24,39 +24,38 @@ for(let i = 0; i < n; i++){
     alert( "Error" );
     System("Pause");
 }
-console.log(arr);
-for(let i = 0; i < arr.length-1; i++){
-  if(arr[i] < min){min = arr[i]; imin = i;}
-  if(arr[i] > max){max = arr[i]; imax = i;}
-}
-
-
-if(Math.abs(imax - imin) == 1){System("Pause");}
+document.write(arr);
 let arrTemp = [];
+for(let i = 0; i < arr.length-1; i++){
+if(arr[i] < min){min = arr[i]; imin = i;}
+if(arr[i] > max){max = arr[i]; imax = i;}
+}
 if(imin < imax){
-  for(let i = 0; i < Math.abs(imax - imin)-1; i++){
-    arrTemp[i] = arr[imin+i+1];
+  let i1 = 0;
+  for(let i = imin+1; i <= imax; i++){
+    arrTemp[i1] = arr[i];
+    i1++;
   }
 }
-if(imax < imin){
-  for(let i = 0; i < Math.abs(imax - imin)-1; i++){
-    arrTemp[i] = arr[imax+i+1];
+else if(imax < imin){
+  let i2 = 0;
+  for(let i = imax+1; i <= imin; i++){
+    arrTemp[i2] = arr[i];
+    i2++;
   }
 }
 arrTemp.sort((a, b) => a - b);
-
-let i1 = 0;
-let count = 0;
+let i3 = 0;
 for(let i = 0; i < arr.length-1; i++){
-  if(i == imax && count == 0 || i == imin && count == 0){
-  for(let i1 = 0; i1 < Math.abs(imax - imin)-1; i1++){
-    arr[i] = arrTemp[i1];
-    i++;
+   if(i > imax && i <= imin){
+    arr[i] = arrTemp[i3];
+    alert(i3);
+    i3++;
   }
-  count++;
-   }
- }
-
-
+  else if(i > imin && i <= imax){
+    arr[i] = arrTemp[i3];
+    i3++;
+    }
+}
 console.log(arrTemp);
-console.log(arr);
+console.log(arr)

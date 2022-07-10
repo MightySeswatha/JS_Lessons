@@ -15,8 +15,17 @@ console.log(arr1);
 console.log(arr2);
 //Функция сортировки
 function sort(arr1,arr2){
+let min = Number.MAX_SAFE_INTEGER;
+for(let i = 0; i < N; i++){
+  for(let i1 = 0; i1 < N; i1++){
+  if(arr1[i] != arr2[i1] && arr1[i] <= min){
+    min = arr1[i];
+  } else{break;}
+  }
+}
+return min;
 
 }
 
-
-document.write(arr);
+let min = sort(arr1,arr2);
+document.write(min);

@@ -7,7 +7,6 @@ let arr = []
 for(let i = 0; i < N; i++){
   arr[i] = Number(prompt("Enter Element("+i+")"));
 }
-console.log(arr);
 //Функция
 function count(arr,N){
 let count = 0;

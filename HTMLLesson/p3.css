@@ -1,0 +1,29 @@
+.al{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+  }
+
+
+.c1{
+  position: relative;
+  transform: rotate(-15deg);
+  z-index: 1;
+  left: 108px;
+  top: 2px;
+}
+
+.c2{
+  position: relative;
+z-index: 2;
+}
+
+.c3{
+  position: relative;
+  transform: rotate(15deg);
+  z-index: 3;
+  left: -120px;
+}

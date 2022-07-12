@@ -1,0 +1,20 @@
+img{
+      background-color:rgba(0,0,0,.3);
+    height:100%;
+    position:fixed;
+    width:100%;
+    top:0;
+    left:0;
+    filter: brightness(.1);
+}
+
+.al{
+      margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 128px;
+    color: #fff;
+}

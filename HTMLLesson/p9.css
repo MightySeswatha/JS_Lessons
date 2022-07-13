@@ -1,0 +1,35 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body{
+font-family: Oswald, sans-serif;
+}
+
+@font-face {
+    font-family: Pompadur; /* Имя шрифта */
+    src: url("https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700"); /* Путь к файлу со шрифтом */
+}
+
+a{
+  padding: 8px;
+  text-decoration: none;
+  background-color: #f9e3b2;
+  color: black;
+}
+
+.f1{
+  font-weight: 400;
+}
+
+.f2{
+  font-weight: 500;
+}
+
+.f3{
+  font-weight: 600;
+}
+
+.f4{
+  font-weight: 700;
+}

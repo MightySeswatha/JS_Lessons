@@ -1,0 +1,33 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body{
+padding: 2% 2% 0 2%;  
+}
+
+.block1{
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-weight: 700;
+  background-color: #f5f4f1;
+  color: #444444;
+  border-top: 1px solid #dddddd;
+  border-rigth: 1px solid #dddddd;
+  border-left: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd ;
+}
+
+a{
+  display: block;
+  padding: 9px;
+  text-decoration: none;
+  color: #444444;
+  border: 1px solid #dddddd;
+}
+
+a:hover{
+  background-color: #bc8e5c;
+  color: #fff;
+}

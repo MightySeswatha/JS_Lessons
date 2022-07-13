@@ -1,0 +1,33 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body{
+background-color: #b6d554;  
+}
+
+.block1{
+  margin: auto;
+  width: 60%;
+  background-color: #fff;
+  border: none;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  padding: 30px 10px 15px;
+  text-align: center;
+
+}
+
+input{
+  position: relative;
+  display: block;
+  margin: auto;
+  height: 34px;
+  width: 230px;
+  margin-bottom: 1.25em;
+  padding-left: 5px;
+}
+
+.btn{
+  font-weight: 700;
+  color: black;
+}

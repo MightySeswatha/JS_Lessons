@@ -1,0 +1,17 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+table{
+  width: 80%;
+  margin: auto;
+  border-spacing: 0.5px 0.5px;
+}
+
+td{
+  border: 1px solid black;
+}
+
+.center{
+  text-align: center;
+}

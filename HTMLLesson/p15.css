@@ -1,0 +1,32 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #fff;
+}
+
+p{
+float: left;
+color: #656565;
+}
+
+.block{
+  padding: 15px;
+  float: right;
+}
+
+a{
+  padding: 7px 13px;
+  text-decoration: none;
+  background-color: #ebe8df;
+  color: #aa8845;
+  border: 1px solid #dad6cf;
+  font-size: 20px;
+}
+
+a:hover{
+  background-color: #a44823;
+  color: #fff;
+  border: 1px solid #7b3418;
+}

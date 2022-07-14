@@ -1,0 +1,57 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #f8f8f8;
+}
+
+.bar{
+  display: block;
+   position:absolute;
+   top:0;
+   right:0;
+width: 100%;
+background-color: #333333;
+color: #fff;
+}
+
+h1{
+  margin-left: 23%;
+}
+
+main,nav{
+  padding-top: 5.25em;
+}
+
+.block1{
+display: block;
+position: relative;
+width: 55%;
+margin: auto;  
+background-color: #fff;
+font-size: 14px;
+height: 2400px;
+box-shadow: 5px 5px 5px 5px rgba(0.1,0.1,0.1,0.1);
+padding: 40px 20px;
+text-align: justify-all;
+}
+
+p{
+  float: left;
+}
+
+.bar1{
+
+   position:fixed;
+   top:5.5em;
+   left:10px;
+
+}
+
+img{
+  display: block;
+  margin-top: 5px;
+  width: 64px;
+  height: 64px;
+}

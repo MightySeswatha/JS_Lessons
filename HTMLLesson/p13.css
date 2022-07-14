@@ -1,0 +1,35 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #f7f9fa;
+}
+
+.img{
+width: 300px;
+}
+
+.block1{
+  position: absolute;
+  width: 300px;
+  padding-bottom: 20px;
+  margin-top: -5px;
+  background-color: #fff;
+  box-shadow: 5px 5px 5px 5px rgba(0.1,0.1,0.1,0.1);
+  text-align: center;
+}
+
+p{
+  color: #6f6f6f;
+}
+
+button{
+  display: block;
+  margin: auto;
+  border-radius: 15px;
+  padding: 10px 20px;
+  border: none;
+  color: #ffdbd2;
+  background-color: #ff634a;
+}

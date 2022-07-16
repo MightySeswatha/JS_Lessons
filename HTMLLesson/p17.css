@@ -1,0 +1,31 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #f7f6f2;
+}
+
+.block{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+  width: 65%;
+  height: 60%;
+  border: 3px solid #dad6cf;
+  background-color: #fff;
+  z-index: 2;
+}
+
+.block_green{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40%;
+    background-color: #a1bd57;
+    z-index: 1;
+}

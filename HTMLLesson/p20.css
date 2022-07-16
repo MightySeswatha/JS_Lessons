@@ -1,0 +1,15 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.card{
+  display: inline-block;
+  position: relative;
+  float: left;
+  margin: auto;
+  background-color: #2962a9;
+  color: #fff;
+  text-align: center;
+  margin-left: 1%;
+
+}

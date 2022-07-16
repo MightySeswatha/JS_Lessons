@@ -1,0 +1,37 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.block{
+  position: relative;
+  margin: auto;
+  padding: 0px 25px;
+  border: 1px solid #e9eaec;
+}
+
+.block_inside{
+  position: relative;
+  margin: auto;
+  margin-top: 2em;
+  border-bottom: 1px solid #e9eaec;
+  padding-bottom: 2em;
+}
+
+h1,h2{
+  display: inline;
+  color: #3b4550;
+}
+
+p{
+  display: inline;
+  color: #848994;
+}
+
+.r{
+  display: inline;
+  float: right;
+}
+
+.b{
+  color: #50a2de;
+}

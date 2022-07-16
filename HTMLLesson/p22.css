@@ -1,0 +1,9 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+p{display: inline;}
+
+input{
+  float: right;
+}

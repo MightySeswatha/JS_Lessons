@@ -1,0 +1,18 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.block{
+  position: relative;
+  padding: 0.5%;
+  margin: auto;
+  background-color: #86328c;
+  z-index: 1;
+}
+
+.block_inside{
+  padding: 4%;
+  border: 3px solid #fff;
+  color: #fff;
+  z-index: 2;
+}

@@ -1,0 +1,13 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+table{
+  margin: auto;
+  width: 50%;
+}
+
+th,td{
+  padding: 1%;
+  background-color: #b6dec2;
+}

@@ -1,0 +1,22 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+
+.block{
+width: 60%;
+display: flex;
+position: relative;
+margin: auto;
+border-bottom: 4px solid #613129;
+}
+
+img{
+float: left;
+}
+
+p{
+  font-weight: 600;
+  padding: 4em;
+}
+

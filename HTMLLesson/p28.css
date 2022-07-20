@@ -1,0 +1,27 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.block{
+  position: absolute;
+  background-color: #fff3d6;
+  padding: 10px;
+}
+
+.block_inside{
+display: inline-block;
+position: relative;
+padding: 10px;
+border-right: 2px solid #bc8c59;
+text-align: right;
+}
+
+h1{
+  vertical-align: top;
+  display: inline;
+}
+
+
+
+
+

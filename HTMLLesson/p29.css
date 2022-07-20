@@ -1,0 +1,39 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+
+a{
+  margin-left: 15px;
+  border: 1px solid #0f2541;
+  text-decoration: none;
+  color: #0f2541;
+}
+
+a:hover{
+  background-color: #ff6600;
+  border: 1px solid #ff6600;
+  color: #fff;
+}
+
+.block{
+  position: relative;
+  margin: auto;
+  text-align: center;
+}
+
+.circle{
+  border-radius: 50%;
+  padding: 5px 10px;
+}
+
+.elipse{
+  padding: 5px 30px;
+  border-radius: 50px;
+}
+
+.active{
+  background-color: #ff6600;
+  border: 1px solid #ff6600;
+  color: #fff;  
+}

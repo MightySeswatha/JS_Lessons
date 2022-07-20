@@ -1,0 +1,16 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+a{
+  color: #1b4268;
+}
+
+.block{
+  position: fixed;
+  right: 1%;
+  top: 30%;
+  background-color: #edf6ff;
+  padding: 10px 80px 10px 10px;
+}
+

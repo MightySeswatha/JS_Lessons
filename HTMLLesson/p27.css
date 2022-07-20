@@ -1,0 +1,22 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.block{
+  position: relative;
+  margin: auto;
+}
+
+ul{
+  list-style-type: none;
+      padding: 0; 
+    margin-left: 20px;
+}
+
+li{
+  padding: 17px;
+  margin-top: 0.25em;
+  background-color: #b18979;
+  color: #fff3d6;
+  border-radius: 5px 5px 0 0;
+}

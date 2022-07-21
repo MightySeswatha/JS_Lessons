@@ -1,0 +1,41 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+div{
+  display: block;
+  position: relative;
+  margin: auto;
+  width: 48%;
+  border: 1px solid black;
+  margin-top: 1em;
+  padding: 0% 1.5% 3%;
+}
+
+a{
+  text-decoration: none;
+  color: blue;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+.r{
+  display: block;
+  position: relative;
+  text-align: right;
+}
+
+p{
+    text-align: justify;
+  line-height: 1.5em;
+  word-spacing: 5px;
+}
+
+
+img{
+  float: left;
+  padding: 0 10px 0px 0;
+  margin-top: 0.4em;
+}

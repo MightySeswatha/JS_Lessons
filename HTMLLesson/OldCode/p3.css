@@ -1,0 +1,26 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.block{
+  width: 700px;
+  margin: auto;
+  background-color: blue;
+  border: 1px solid darkblue;
+}
+
+a{
+    display: inline-flex;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+a:hover{
+  color: blue;
+  background-color: #fff;
+}
+
+.l{
+  margin-left: 114px;
+}
